@@ -1,0 +1,19 @@
+[general]
+import = ["~/.config/alacritty/themes/apprentice.toml"]
+
+[font]
+normal = { family = "ShureTechMono Nerd Font mono", style = "Regular" }
+size = 18
+
+[window]
+opacity = 0.75
+
+[[keyboard.bindings]]
+key = "C"
+mods = "Super"
+action = "Copy"
+
+[[keyboard.bindings]]
+key = "V"
+mods = "Super"
+action = "Paste"
